@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1ap\\source\\repos\\Pong\\Pong\\Pong.csproj": {}
+    "C:\\Users\\1ap\\Desktop\\Pong-game-main\\Pong\\Pong.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1ap\\source\\repos\\Pong\\Pong\\Pong.csproj": {
+    "C:\\Users\\1ap\\Desktop\\Pong-game-main\\Pong\\Pong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1ap\\source\\repos\\Pong\\Pong\\Pong.csproj",
+        "projectUniqueName": "C:\\Users\\1ap\\Desktop\\Pong-game-main\\Pong\\Pong.csproj",
         "projectName": "Pong",
-        "projectPath": "C:\\Users\\1ap\\source\\repos\\Pong\\Pong\\Pong.csproj",
+        "projectPath": "C:\\Users\\1ap\\Desktop\\Pong-game-main\\Pong\\Pong.csproj",
         "packagesPath": "C:\\Users\\1ap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1ap\\source\\repos\\Pong\\Pong\\obj\\",
+        "outputPath": "C:\\Users\\1ap\\Desktop\\Pong-game-main\\Pong\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

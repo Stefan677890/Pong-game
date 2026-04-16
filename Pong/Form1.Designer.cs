@@ -1,6 +1,6 @@
 ﻿namespace Pong
 {
-    partial class Form1
+    partial class Pong
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,11 +29,29 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            timer1 = new System.Windows.Forms.Timer(components);
+            SuspendLayout();
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // Pong
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Text = "Form1";
+            BackColor = SystemColors.Desktop;
+            ClientSize = new Size(584, 361);
+            Name = "Pong";
+            Text = "Pong";
+            Load += Pong_Load;
+            KeyDown += Pong_KeyDown;
+            KeyUp += Pong_KeyUp;
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer timer1;
     }
 }
